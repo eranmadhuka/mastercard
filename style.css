@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+h4{
+    color: #B1ADA6;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+/*--- Header ---*/
+.header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.bg-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    padding:  30px 13%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav:hover{
+    background: #141413;
+    transition: 0.5s;
+}
+
+nav img{
+    width: 65px;
+}
+
+.nav-links{
+    flex: 2;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+nav .fa{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav-links ul li a::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #FFFFFF;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li a:hover::after{
+    width: 100%;
+}
+
+.content{
+    color: #FFFFFF;
+    position: absolute;
+    top: 47%;
+    left: 29%;
+    text-align: left;
+    transform: translate(-50%,-28%);
+}
+
+.content p{
+    color: #B1ADA6;
+}
+
+.content sup{
+    font-size: 35px;
+}
+
+/*--- Banner 01 ---*/
+.banners{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.banner-img1{
+    height: 60vh;
+    background-image: url(img/african-american-women-hugging-1300x650.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.banner-img2{
+    height: 60vh;
+    background-image: url(img/female-scientist-looking-into-microscope-1300x650.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.text-box{
+    width: 75%;
+    margin: auto;
+    padding: 10% 0;
+    text-align: left;
+}
+
+.text-box h1{
+    font-weight: 200;
+}
+
+.text-box .link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.text-box .link:hover{
+    text-decoration: underline;
+}
+
+.text-box .link img{
+    width: 18px;
+}
+
+/*--- Slider ---*/
+.slider{
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.row-text-box{
+    padding: 20% 9% 0 7%;
+}
+
+.row-text-box h4{
+    color: #141413;
+}
+
+.row-text-box h2{
+    color: #141413;
+    font-size: 35px;
+    font-weight: 550;
+    margin: 15px 0;
+    line-height: 50px;
+}
+
+.row-text-box p{
+    color: #141413;
+    font-size: 16px;
+}
+
+.hero-btn{
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #cf4500;
+    border: 2px solid #cf4500;
+    border-radius: 30px;
+    padding: 5px 24px;
+    margin-top: 20px;
+}
+
+.hero-btn:hover{
+    color: #852d01;
+    border: 2px solid #852d01;
+    box-shadow: 0 5px 11px #852d01;
+    transition: 0.5s;
+}
+
+/*--- Banner 01 ---*/
+.banner-img3{
+    height: 60vh;
+    background-image: url(img/mastercard-cards-1300x650.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.hero-btn-white{
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 5px 24px;
+    margin-top: 20px;
+}
+
+.hero-btn-white:hover{
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 5px 11px #FFFFFF;
+    transition: 0.5s;
+}
+
+/*--- Services ---*/
+.services{
+    background-color: rgb(50 50 49);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.services-row{
+    padding: 1% 12%;
+}
+
+.services-row-1{
+    margin-top: 26px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-row-1 img{
+    width: 50%;
+    height: 100%;
+}
+
+.service-text-box{
+    margin: auto;
+    padding: 0 70px;
+}
+
+.service-text-box img{
+    width: 15px;
+    height: 15px;
+}
+
+.service-text-box h2{
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.service-text-box h2 sup{
+    font-size: 28px;
+}
+
+.service-text-box a{
+    color: #B1ADA6;
+    text-decoration: none;
+}
+
+.service-text-box a:hover{
+    text-decoration: underline;
+}
+
+/*--- slider-02 ---*/
+.slider02{
+    text-align: left;
+    margin: auto;
+}
+.slider02 .slider-02-img{
+    width: 60%;
+    height: 100vh;
+ 
+}
+
+/*--- Blog ---*/
+.blog{
+    background-color: rgb(248 247 245);
+}
+
+.blog-sec{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    padding: 6% 5%;
+}
+
+.blog-sec h2{
+    color: #141413;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.blog-col{
+    flex-basis: 32%;
+}
+
+.blog-col img{
+    width: 100%;
+}
+
+.blog-col h4{
+    color: #141413;
+    margin: 15px 0;
+}
+
+.blog-col h2{
+    color: #141413;
+    margin-bottom: 10px;
+}
+
+.blog-col a{
+    color: #141413;
+    text-decoration: none;
+}
+
+.blog-col a:hover{
+    text-decoration: underline;
+}
+
+.blog-col .link img{
+    width: 15px;
+    height: 15px;
+}
+
+/*--- Footer ---*/
+.footer{
+    width: 100%;
+}
+
+.footer1{
+    background: rgb(50 50 49);
+    padding: 1.5% 12.5%;
+}
+
+.footer1 a{
+    font-size: 15px;
+    color: #B1ADA6;
+    text-decoration: none;
+}
+
+.footer1 .fa{
+    color: #B1ADA6;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.footer2{
+    width: 75%;
+    background: rgb(20 20 19);
+    padding: 3% 12.5%;
+}
+
+.footer-col{
+    flex-basis: 20%;
+}
+
+.footer-col .logo{
+    width: 65px;
+}
+
+.footer-col h2{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.left-menu li{
+    list-style: none;
+    padding: 10px 0;
+    position: relative;
+    text-align: left;
+}
+
+.footer-col .left-menu li a{
+    color: #B1ADA6;
+    text-decoration: none;
+}
+
+.left-menu li a:hover{
+    text-decoration: underline;
+}
+
+.left-menu img{
+    width: 18px;
+}
+
+.left-menu .atm{
+    width: 13px;
+}
+
+.footer-col h3{
+    color: #B1ADA6;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.footer-col ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-col ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover{
+    text-decoration: underline;
+}
+
+.mid-col{
+    margin-left: 35%;
+}
+
+.footer2 hr{
+    border: 1px solid rgb(68 67 64);
+    padding: 0.1px;
+    margin: 25px 0;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+
+}   
+
+.footer-row p{
+    color: #FFFFFF;
+}
+
+.footer-row ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 0 10px;
+}
+
+.footer-row ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-row ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-row a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-row a:hover{
+    text-decoration: underline;
+}
+
+.footer-row .eng{
+    margin-left: 20%;
+}
+.footer-row .fa{
+    font-size: 26px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.footer .fa:hover{
+    color: #B1ADA6;
+    cursor: pointer;
+}
